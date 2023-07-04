@@ -1,0 +1,26 @@
+
+    <!--app-formulario 
+    (emiteSuma)="recibeSuma($event)"
+    
+    > </app-formulario>
+  
+    <app-resultado  
+    [resultado]="resultadoPadre"
+    ></app-resultado-->
+  
+<div style="text-align: center;">
+<button style="cursor: pointer;" (click)="agregar()">+</button>
+</div>
+  
+  <div class="box">
+    
+    <app-persona
+      *ngFor="let personaElemento of personas; let i = index"
+      [persona]="personaElemento"
+      [indice]="i"
+    >
+    </app-persona>
+
+  
+    
+  </div>
