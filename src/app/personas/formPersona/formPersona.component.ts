@@ -31,14 +31,13 @@ modoEdicion:number;
        let persona1 = new Persona(
        this.nombreI,
        this.apellidoI);
-       
        if(this.modoEdicion!=null){
         this.personaseService.modificarPersona (this.index, persona1);
        }else{
         this.personaseService.personaAgregada(persona1);
        }
       
-       this.router.navigate(['personas']);
+       this.router.navigate(['/personas']);
     }
 
     ngOnInit(): void {
