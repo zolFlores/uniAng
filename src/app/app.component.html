@@ -1,3 +1,8 @@
+<div *ngIf="!isAutentificado()"  class="box centrado">
+  <a routerLink="/login">Login</a>
+</div>
+<div   *ngIf="isAutentificado()" style="cursor: pointer;"  class="box centrado"  (click)="salir()">Salir</div>
+
 <div class="box" id="heading">
   <h1>{{titulo}}</h1>
 <router-outlet></router-outlet>

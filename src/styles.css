@@ -21,6 +21,9 @@ html {
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
   }
   
+  .centrado{
+    text-align: center;
+  }
   #heading {
     background-color: #3F51B5;
     text-align: center;

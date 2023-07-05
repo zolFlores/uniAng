@@ -1,0 +1,175 @@
+[debug] [2023-07-05T21:04:51.109Z] ----------------------------------------------------------------------
+[debug] [2023-07-05T21:04:51.111Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\marisol.flores.ST\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-07-05T21:04:51.112Z] CLI Version:   12.4.2
+[debug] [2023-07-05T21:04:51.112Z] Platform:      win32
+[debug] [2023-07-05T21:04:51.113Z] Node Version:  v18.13.0
+[debug] [2023-07-05T21:04:51.113Z] Time:          Wed Jul 05 2023 15:04:51 GMT-0600 (GMT-06:00)
+[debug] [2023-07-05T21:04:51.113Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-05T21:04:51.117Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-07-05T21:04:51.166Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-05T21:04:51.166Z] > authorizing via signed-in user (marisol.flores0475@academicos.udg.mx)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\marisol.flores.ST\Documents\Prueba\a\uni-ang
+
+[debug] [2023-07-05T21:04:51.359Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-07-05T21:04:51.359Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-05T21:07:13.736Z] > refreshing access token with scopes: []
+[debug] [2023-07-05T21:07:13.737Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-05T21:07:13.737Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-05T21:07:13.864Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-07-05T21:07:13.864Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-05T21:07:13.865Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-07-05T21:07:14.080Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 401
+[debug] [2023-07-05T21:07:14.080Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-07-05T21:07:14.081Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-07-05T21:07:14.201Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\marisol.flores.ST\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\marisol.flores.ST\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-07-05T21:07:28.371Z] ----------------------------------------------------------------------
+[debug] [2023-07-05T21:07:28.372Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\marisol.flores.ST\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-07-05T21:07:28.373Z] CLI Version:   12.4.2
+[debug] [2023-07-05T21:07:28.373Z] Platform:      win32
+[debug] [2023-07-05T21:07:28.373Z] Node Version:  v18.13.0
+[debug] [2023-07-05T21:07:28.374Z] Time:          Wed Jul 05 2023 15:07:28 GMT-0600 (GMT-06:00)
+[debug] [2023-07-05T21:07:28.374Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-05T21:07:28.381Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-05T21:07:28.382Z] > authorizing via signed-in user (marisol.flores0475@academicos.udg.mx)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\marisol.flores.ST\Documents\Prueba\a\uni-ang
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-05T21:08:33.017Z] > refreshing access token with scopes: []
+[debug] [2023-07-05T21:08:33.020Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-05T21:08:33.020Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-05T21:08:33.177Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-07-05T21:08:33.177Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-05T21:08:33.177Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-07-05T21:08:33.324Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 401
+[debug] [2023-07-05T21:08:33.324Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-07-05T21:08:33.324Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-07-05T21:08:33.417Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\marisol.flores.ST\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\marisol.flores.ST\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-07-05T21:10:01.252Z] ----------------------------------------------------------------------
+[debug] [2023-07-05T21:10:01.254Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\marisol.flores.ST\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-07-05T21:10:01.254Z] CLI Version:   12.4.2
+[debug] [2023-07-05T21:10:01.255Z] Platform:      win32
+[debug] [2023-07-05T21:10:01.255Z] Node Version:  v18.13.0
+[debug] [2023-07-05T21:10:01.255Z] Time:          Wed Jul 05 2023 15:10:01 GMT-0600 (GMT-06:00)
+[debug] [2023-07-05T21:10:01.256Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-05T21:10:01.263Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-05T21:10:01.263Z] > authorizing via signed-in user (marisol.flores0475@academicos.udg.mx)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\marisol.flores.ST\Documents\Prueba\a\uni-ang
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-05T21:11:03.896Z] > refreshing access token with scopes: []
+[debug] [2023-07-05T21:11:03.898Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-05T21:11:03.899Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-05T21:11:04.054Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-07-05T21:11:04.055Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-05T21:11:04.057Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-07-05T21:11:04.212Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 401
+[debug] [2023-07-05T21:11:04.212Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-07-05T21:11:04.212Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-07-05T21:11:04.303Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\marisol.flores.ST\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\marisol.flores.ST\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-07-05T21:15:25.654Z] ----------------------------------------------------------------------
+[debug] [2023-07-05T21:15:25.656Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\marisol.flores.ST\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-07-05T21:15:25.656Z] CLI Version:   12.4.2
+[debug] [2023-07-05T21:15:25.656Z] Platform:      win32
+[debug] [2023-07-05T21:15:25.657Z] Node Version:  v18.13.0
+[debug] [2023-07-05T21:15:25.657Z] Time:          Wed Jul 05 2023 15:15:25 GMT-0600 (GMT-06:00)
+[debug] [2023-07-05T21:15:25.657Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-05T21:15:25.664Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-05T21:15:25.665Z] > authorizing via signed-in user (marisol.flores0475@academicos.udg.mx)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\marisol.flores.ST\Documents\Prueba\a\uni-ang
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-05T21:16:03.432Z] > refreshing access token with scopes: []
+[debug] [2023-07-05T21:16:03.435Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-05T21:16:03.435Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-05T21:16:03.607Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-07-05T21:16:03.608Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-05T21:16:03.609Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-07-05T21:16:03.768Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 401
+[debug] [2023-07-05T21:16:03.768Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-07-05T21:16:03.768Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-07-05T21:16:03.860Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\marisol.flores.ST\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\marisol.flores.ST\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
